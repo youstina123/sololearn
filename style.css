@@ -1,0 +1,601 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    background-color: #f2f5f7;
+}
+.clear{
+    clear: both;
+}
+.barDiv{
+    background-color: black;
+    color: #6b7f99;
+    position: sticky; 
+    width: 100%;
+    top: 0;    
+    z-index: 1;
+}
+.barDiv div{
+    display: inline-block;
+}
+.barDiv div img{
+    margin-top: 10px;
+}
+.barDiv div p{
+    font-size: 50px;
+    font-weight: 25px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin: 15px;
+}
+.rightBarDiv{
+    float: right; 
+    padding: 20px 0px;
+}
+
+
+
+.rightBarDiv button:hover{
+    background-color: cadetblue;
+}
+.rightBarDiv span{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 10px;
+}
+.btnLogin{
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid #2493df;
+    color: #2493df;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 0px;
+    
+}
+.btnRegister{
+    width: 150px;
+    background-color: #2493df;
+    border: 1px solid #2493df;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.mainDiv{
+    background-image: url(./photos/back\ ground.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 800px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 50x;
+    color: white;
+    position: relative;
+}
+.lines{
+    margin-bottom: 20px;
+
+}
+.lines span{
+    display: inline-block;
+    width: 200px;
+    border-bottom: 1px solid #fff;
+    height: 2px;
+}
+.google{
+    width: 110px;
+    height: 50px;
+    background-color: #db4437;
+    border: 1px solid #db4437;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px; 
+
+}
+.btnStart{
+    width: 300px;
+    background-color: #2493DF;
+    border: 1px solid #2493DF;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+
+
+.apple{
+    width: 110px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.facebook{
+    width: 110px;
+    margin-left: 20px;
+    height: 50px;
+    background-color: #4267b2;
+    border: 1px solid #4267b2;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+.haed{
+    font-size: 80px;
+    font-weight: 150px;
+    color: white;
+}
+.para{
+    color: white;
+font-size: 30px;
+font-weight: 20px;
+}
+.mainCourses{
+    width: 85%;
+    display: inline;
+    position: absolute;
+    left: 120px;
+    top: 800px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.mainCourses div{
+    width: 20%;
+    background-color: #EAF0F3;
+    margin: 60px 2%;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.mainCourses div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.mainCourses div p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.four_section{
+    text-align: center;
+}
+.four_section div{
+    width: 27%;
+    height: 500px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 433px;
+    margin-left: 60px;
+    background-color: white;
+}
+.four_section div:first-of-type{
+    margin-left: 0px;
+}
+.four_section img{
+    width: 400px;   
+}
+.four_section div h1{
+    font-size: 40px;
+}
+.four_section div p{
+    font-size: 20px;
+    padding: 20px;
+    color: #6b7f99;
+}
+
+.phone-girl{
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.phone-girl .child{
+    display: inline-block;
+    background-color: #fff;
+    overflow: hidden;
+    vertical-align: top;
+    padding: 10px;
+}
+#link{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 12px;
+}
+.phone-girl .child.ch1{
+    width: 64%;
+    margin: 0px 20px ;
+}
+.phone-girl .child > div{
+    display: inline-block;
+    vertical-align: top;
+}
+.phone-girl .ch1 .phone{
+    width: 60%;
+    height: 100%;
+    padding-top: 12%;
+    overflow: hidden;
+}
+.phone-girl .ch1 .phone button{
+    background-color: transparent;
+    border: none;
+    padding-left: 80px;
+}
+.phone-girl .ch1 .img{
+    width: 20%;
+}
+.phone-girl .child.ch2{
+    width: 28%;
+    
+}
+.phone h2{
+    font-size: 50px;
+    font-weight: 100px;
+}
+.phone p{
+    font-size: 25px;
+}
+.child h2{
+    font-size: 31px;
+    text-align: center;
+}
+.child p{
+    font-size: 23px;
+    text-align: center;
+}
+
+
+
+.start_prof{
+    width: 100%;
+    background-color: white;
+
+}
+
+.start_prof div{
+    display: inline-block;
+    text-align: center;
+    left: 40px;
+    margin-left: 50px;
+}
+.start_prof h1{
+    font-size: 35px;
+    font-weight: 10px;
+}
+.start_prof p{
+    font-size: 20px;
+    color: #6b7f99;
+
+}
+
+
+.code div{
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.code h1{
+    text-align: center;
+    padding: 80px;
+    font-size: 75px;
+}
+.code h1 strong{
+    color: #2493df;
+}
+.code div img{
+    margin-top: -150px;
+}
+.images div{
+    background-color: white;
+width: 30%;
+}
+.images div h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.images div p{
+    font-size: 20px;
+    color: #6b7f99;
+    padding: 30px;
+
+}
+.code p{
+    font-size: 20px;
+    color: #6b7f99;
+}
+.code button{
+    width: 250px;
+    font-size: 18px;
+    padding: 8px;
+    color: white;
+    background-color: #2493df;
+    border: 1px solid #2493df;
+    border-radius: 3px;
+}
+
+
+
+.invest{
+    background-color: #1F1E28;
+    width: 100%;
+}
+.invest div{
+    display: inline-block;
+    text-align: center;
+}
+.invest  h1{
+    text-align: center;
+    color: white;
+   padding: 50px 0PX 30px 0px;
+   font-size: 60px;
+}
+.invest h1 strong{
+    background-color: rgb(251, 180, 97);
+    border-radius: 25px;
+    color: black;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 26px;
+}
+
+.investigation{
+    width: 100%;
+    margin:  0px auto;
+}
+.investigation div{
+display:inline-block;
+border: 1px solid white;
+width: 28%;
+margin: 20px;
+border-radius: 5px;
+} 
+.investigation div h2{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 15px;
+}
+.investigation div h1{
+    color: rgb(251, 180, 97);
+    font-size: 50;
+    padding: 10px;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+.investigation div p{
+    color: rgb(251, 180, 97);
+    font-size: 20px;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: -45px;
+}
+.invest .btn{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+
+.Sentence1{
+    width: 100%;
+    color: rgb(251, 180, 97);
+    font-size: 30px;
+}
+.Sentence1 div{
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.Sentence2{
+    width: 100%;
+    color: rgb(251, 180, 97);
+    font-size: 30px;
+    margin-top: -75px;
+}
+.Sentence2 div{
+    text-align: center;
+    margin : 20px;
+
+    
+}
+.btn {
+   margin: 0px auto;
+}
+.btnlearn{
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    width: 600px;
+    padding: 8px;
+    background-color:   #ffa310;
+    border: 10px solid #ffa310 ;
+}
+
+
+
+.hasty{
+    
+    background-color: white;
+}
+.hasty div img{
+    left: 50%;
+    right: 50%;
+ text-align: center;
+ padding: 30px;
+}
+.hasty h1{
+    text-align: center;
+    font-size: 30px;
+}
+.hasty hr{
+    width: 50%;
+}
+.hasty p{
+    text-align: center;
+    font-size: 25px;
+    color:#6b7f99 ;
+}
+.hasty div{
+    text-align: center;
+}
+
+
+.with_form{
+    width: 100%;
+    background-color: #1F1E28;
+    overflow: hidden;
+}
+.with_form div{
+    display: inline-block;
+    width: 49%;
+}
+.par{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.par h1{
+   font-size: 45px;
+   text-align: left;
+   margin-top: 200px;
+   margin-left: 40px;
+   color: white;
+}
+
+
+.formm{
+    width: 70%;
+    border-radius: 10px;
+    float: right;
+    margin-right: 5px;
+    
+}
+/* .formm div{
+    width: 600px;
+} */
+.formm form{
+    padding: 30px;
+    /* margin-top: 40px; */
+    text-align: left;
+    border: 1px solid #6B7F99 ;
+    width: 400px;
+    border-radius: 5px;
+    background-color: #f2f5f7;
+    margin-bottom: 30px;
+}
+.signup{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 154px;
+    
+}
+.formm  div form label{
+    color: #6B7F99;
+    font-size: 20px;
+margin-top: 20px;    
+}
+.formm div form input{
+    width: 350px;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 9px;
+
+}
+.btnSignUp{
+    width: 370px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: #8bc3e9;
+    border-radius: 5px;
+}
+.lines1{
+    margin-bottom: 20px;
+    color:rgb(173, 169, 169);
+}
+.policy{
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 30px;
+    
+}
+.formm div button {
+    text-align: left;
+}
+.account p{
+    font-size: 16px;
+    text-align: center;
+    width: 300px;
+    margin: 50px;
+    margin-bottom: 5px;
+}
+.account{
+    width: 300px;
+}
+.terms{
+    font-size: 16px;
+    text-align: center;
+    
+}
+.terms p{
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    background-color: #1F1E28;
+    color: white;
+}
+.social{
+    text-align: center;
+
+}
+.social div{
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+}
+.social div button{
+    background-color: transparent;
+    border: none;
+}
+
+
+.nav-footer{
+    width: 100%;
+    background-color: #1F1E28;
+    color:#5A7667
+}
+.nav-foot div{
+    display: inline-block;
+margin-right: 15px;
+margin-left: 20px;
+font-size: 18px;
+}
+.nav-logo{
+    margin-left: -40px;
+}
+
+
+
+
+
+
+
+
+
